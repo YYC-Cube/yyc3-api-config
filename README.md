@@ -1,17 +1,6 @@
 <div align="center">
 
-<div style="font-family: 'Courier New', monospace; line-height: 1.2; font-size: 14px; background: #1a1a2e; padding: 20px; border-radius: 10px; display: inline-block;">
-
-<div style="color: #ff6b6b;">     ██╗   ██╗██╗   ██╗ ██████╗██████╗      █████╗  ███████╗ ██╗</div>
-<div style="color: #1dd1a1;">   ╚██╗ ██╔╝╚██╗ ██╔╝██╔════╝╚════██╗    ██╔══██╗ ██╔══██╗ ██║</div>
-<div style="color: #feca57;">    ╚████╔╝  ╚████╔╝ ██║      █████╔╝    ███████║ ███████║ ██║</div>
-<div style="color: #48dbfb;">     ╚██╔╝    ╚██╔╝  ██║      ╚═══██╗    ██╔══██║ ██╔════╝ ██║</div>
-<div style="color: #ff9ff3;">      ██║      ██║   ╚██████╗██████╔╝    ██║  ██║ ██║      ██║</div>
-<div style="color: #00d2d3;">       ╚═╝      ╚═╝    ╚═════╝╚═════╝     ╚═╝  ╚═╝ ╚═╝      ╚═╝</div>
-
-</div>
-
-<br>
+![YYC³ API Integration](pubilc/API-Integration.png)
 
 # YYC³ API Gateway Configuration
 
@@ -367,7 +356,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- YYC³ Team for the API Gateway
+- YYC³ Team for API Gateway
 - Alibaba Cloud for Qwen AI
 - Zhipu AI for GLM models
 - Ollama for local AI models
@@ -375,16 +364,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <div align="center">
-
-<div style="font-family: 'Courier New', monospace; line-height: 1.2; font-size: 14px; background: #1a1a2e; padding: 20px; border-radius: 10px; display: inline-block; margin-top: 30px;">
-
-<div style="color: #00d2d3;">    言语云³ 开发者工具包</div>
-<div style="color: #00d2d3;">    YanYu Intelligence Cloud³ Developer Kit</div>
-<div style="color: #00d2d3;">    ======================================</div>
-
-</div>
-
-<br>
 
 **Built with ❤️ by [YYC³ Team](https://github.com/YYC-Cube)**
 
