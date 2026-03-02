@@ -1,6 +1,6 @@
 <div align="center">
 
-![YYC³ API Integration](pubilc/API-Integration.png)
+![YYC³ API Integration](public/API-Integration.png)
 
 # YYC³ API Gateway Configuration
 
