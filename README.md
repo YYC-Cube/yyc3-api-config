@@ -1,21 +1,17 @@
 <div align="center">
 
-```bash
-RED='\033[31m'
-GREEN='\033[32m'
-YELLOW='\033[33m'
-BLUE='\033[34m'
-PURPLE='\033[35m'
-CYAN='\033[36m'
-NC='\033[0m'
+<div style="font-family: 'Courier New', monospace; line-height: 1.2; font-size: 14px; background: #1a1a2e; padding: 20px; border-radius: 10px; display: inline-block;">
 
-echo -e "${RED}     ██╗   ██╗██╗   ██╗ ██████╗██████╗      █████╗  ███████╗ ██╗${NC}"
-echo -e "${GREEN}   ╚██╗ ██╔╝╚██╗ ██╔╝██╔════╝╚════██╗    ██╔══██╗ ██╔══██╗ ██║${NC}"
-echo -e "${YELLOW}    ╚████╔╝  ╚████╔╝ ██║      █████╔╝    ███████║ ███████║ ██║${NC}"
-echo -e "${BLUE}     ╚██╔╝    ╚██╔╝  ██║      ╚═══██╗    ██╔══██║ ██╔════╝ ██║${NC}"
-echo -e "${PURPLE}      ██║      ██║   ╚██████╗██████╔╝    ██║  ██║ ██║      ██║${NC}"
-echo -e "${CYAN}       ╚═╝      ╚═╝    ╚═════╝╚═════╝     ╚═╝  ╚═╝ ╚═╝      ╚═╝${NC}"
-```
+<div style="color: #ff6b6b;">     ██╗   ██╗██╗   ██╗ ██████╗██████╗      █████╗  ███████╗ ██╗</div>
+<div style="color: #1dd1a1;">   ╚██╗ ██╔╝╚██╗ ██╔╝██╔════╝╚════██╗    ██╔══██╗ ██╔══██╗ ██║</div>
+<div style="color: #feca57;">    ╚████╔╝  ╚████╔╝ ██║      █████╔╝    ███████║ ███████║ ██║</div>
+<div style="color: #48dbfb;">     ╚██╔╝    ╚██╔╝  ██║      ╚═══██╗    ██╔══██║ ██╔════╝ ██║</div>
+<div style="color: #ff9ff3;">      ██║      ██║   ╚██████╗██████╔╝    ██║  ██║ ██║      ██║</div>
+<div style="color: #00d2d3;">       ╚═╝      ╚═╝    ╚═════╝╚═════╝     ╚═╝  ╚═╝ ╚═╝      ╚═╝</div>
+
+</div>
+
+<br>
 
 # YYC³ API Gateway Configuration
 
@@ -380,11 +376,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-```bash
-echo -e "${CYAN}    言语云³ 开发者工具包${NC}"
-echo -e "${CYAN}    YanYu Intelligence Cloud³ Developer Kit${NC}"
-echo -e "${CYAN}    ======================================${NC}"
-```
+<div style="font-family: 'Courier New', monospace; line-height: 1.2; font-size: 14px; background: #1a1a2e; padding: 20px; border-radius: 10px; display: inline-block; margin-top: 30px;">
+
+<div style="color: #00d2d3;">    言语云³ 开发者工具包</div>
+<div style="color: #00d2d3;">    YanYu Intelligence Cloud³ Developer Kit</div>
+<div style="color: #00d2d3;">    ======================================</div>
+
+</div>
+
+<br>
 
 **Built with ❤️ by [YYC³ Team](https://github.com/YYC-Cube)**
 
