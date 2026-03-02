@@ -1,6 +1,21 @@
 <div align="center">
 
-![YYC³ API Integration](pubilc/API-Integration.png)
+```bash
+RED='\033[31m'
+GREEN='\033[32m'
+YELLOW='\033[33m'
+BLUE='\033[34m'
+PURPLE='\033[35m'
+CYAN='\033[36m'
+NC='\033[0m'
+
+echo -e "${RED}     ██╗   ██╗██╗   ██╗ ██████╗██████╗      █████╗  ███████╗ ██╗${NC}"
+echo -e "${GREEN}   ╚██╗ ██╔╝╚██╗ ██╔╝██╔════╝╚════██╗    ██╔══██╗ ██╔══██╗ ██║${NC}"
+echo -e "${YELLOW}    ╚████╔╝  ╚████╔╝ ██║      █████╔╝    ███████║ ███████║ ██║${NC}"
+echo -e "${BLUE}     ╚██╔╝    ╚██╔╝  ██║      ╚═══██╗    ██╔══██║ ██╔════╝ ██║${NC}"
+echo -e "${PURPLE}      ██║      ██║   ╚██████╗██████╔╝    ██║  ██║ ██║      ██║${NC}"
+echo -e "${CYAN}       ╚═╝      ╚═╝    ╚═════╝╚═════╝     ╚═╝  ╚═╝ ╚═╝      ╚═╝${NC}"
+```
 
 # YYC³ API Gateway Configuration
 
@@ -18,7 +33,7 @@
 
 ## 📖 Overview
 
-YYC³ API Gateway Configuration provides ready-to-use environment configurations for seamless integration with the YYC³ Unified API Gateway. This package enables developers to quickly connect to powerful AI services including Qwen, Zhipu, and Ollama.
+YYC³ API Gateway Configuration provides ready-to-use environment configurations for seamless integration with YYC³ Unified API Gateway. This package enables developers to quickly connect to powerful AI services including Qwen, Zhipu, and Ollama.
 
 ### ✨ Features
 
@@ -49,10 +64,16 @@ yyc3-api-config/
 ├── .env.staging          # Staging environment configuration
 ├── .gitignore           # Git ignore file template
 ├── config.example.md     # Configuration usage examples
+├── LICENSE              # MIT License
 ├── pubilc/             # Images and assets
 │   ├── API-Integration.png
 │   ├── API-Integration-001.png
-│   └── 开发工具包.png
+│   └── yyc3-badge-icons/
+│       ├── Android/
+│       ├── iOS/
+│       ├── macOS/
+│       ├── Web App/
+│       └── Web-Pwa/
 └── README.md           # This file
 ```
 
@@ -69,10 +90,10 @@ yyc3-api-config/
 ### Installation
 
 ```bash
-# Clone the repository
+# Clone repository
 git clone https://github.com/YYC-Cube/yyc3-api-config.git
 
-# Navigate to the directory
+# Navigate to directory
 cd yyc3-api-config
 
 # Choose your environment
@@ -358,6 +379,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <div align="center">
+
+```bash
+echo -e "${CYAN}    言语云³ 开发者工具包${NC}"
+echo -e "${CYAN}    YanYu Intelligence Cloud³ Developer Kit${NC}"
+echo -e "${CYAN}    ======================================${NC}"
+```
 
 **Built with ❤️ by [YYC³ Team](https://github.com/YYC-Cube)**
 
