@@ -48,7 +48,7 @@ yyc3-api-config/
 ├── .env.development       # Development environment configuration
 ├── .env.staging          # Staging environment configuration
 ├── .gitignore           # Git ignore file template
-├── config.example.js     # Configuration usage examples
+├── config.example.md     # Configuration usage examples
 ├── pubilc/             # Images and assets
 │   ├── API-Integration.png
 │   ├── API-Integration-001.png
@@ -301,7 +301,7 @@ npm run test
 ## 📚 Documentation
 
 - [API Documentation](https://docs.0379.world)
-- [Environment Configuration Guide](./config.example.js)
+- [Environment Configuration Guide](./config.example.md)
 - [Security Guidelines](#-security-best-practices)
 - [API Reference](#-api-endpoints)
 
