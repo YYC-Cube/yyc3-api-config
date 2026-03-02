@@ -20,6 +20,8 @@
 
 YYC³ API Gateway Configuration provides ready-to-use environment configurations for seamless integration with YYC³ Unified API Gateway. This package enables developers to quickly connect to powerful AI services including Qwen, Zhipu, and Ollama.
 
+> **Note**: This is a **configuration package**, not a standalone application. Copy the configuration files to your project and integrate with your existing codebase.
+
 ### ✨ Features
 
 - 🚀 **Multi-Environment Support** - Development, Staging, and Production configurations
@@ -85,6 +87,23 @@ cd yyc3-api-config
 cp .env.development .env    # For development
 # or
 cp .env.staging .env         # For staging
+```
+
+### Usage in Your Project
+
+```bash
+# Copy environment configuration to your project
+cp .env /path/to/your/project/
+
+# Copy example configuration to your project
+cp config.example.md /path/to/your/project/
+
+# Install dependencies in your project
+cd /path/to/your/project
+npm install dotenv axios
+
+# Load environment variables in your code
+require('dotenv').config();
 ```
 
 ### Verification
