@@ -49,9 +49,13 @@ YYC³ API Gateway Configuration provides ready-to-use environment configurations
 yyc3-api-config/
 ├── .env.development       # Development environment configuration
 ├── .env.staging          # Staging environment configuration
+├── .env.production       # Production environment configuration
 ├── .gitignore           # Git ignore file template
 ├── config.example.md     # Configuration usage examples
 ├── LICENSE              # MIT License
+├── API使用记录模板.md    # API usage record template
+├── YYC³-API-开发者配置包使用指南.md  # Developer configuration package usage guide
+├── YYC³-API-使用记录与跟踪指南.md  # API usage record and tracking guide
 ├── pubilc/             # Images and assets
 │   ├── API-Integration.png
 │   ├── API-Integration-001.png
@@ -155,6 +159,24 @@ curl $API_BASE_URL/health
 - Integration testing
 - Pre-release validation
 - Performance testing
+
+### Production Environment
+
+**Purpose**: Production deployment and user access
+
+**Configuration**:
+- API URL: `https://api.0379.world`
+- WebSocket: `wss://api.0379.world/ws`
+- Log Level: `warn`
+- Rate Limit: 300 requests/minute
+- JWT Expiry: 7 days
+- Swagger: ❌ Disabled
+- Debug Mode: ❌ Disabled
+
+**Use Cases**:
+- Production deployment
+- User access
+- High-availability services
 
 ---
 
@@ -321,12 +343,25 @@ cp .env.staging .env
 npm run test
 ```
 
+### Switch to Production
+
+```bash
+# Copy production configuration
+cp .env.production .env
+
+# Restart application
+npm run start
+```
+
 ---
 
 ## 📚 Documentation
 
 - [API Documentation](https://docs.0379.world)
 - [Environment Configuration Guide](./config.example.md)
+- [Developer Configuration Package Usage Guide](./YYC³-API-开发者配置包使用指南.md)
+- [API Usage Record and Tracking Guide](./YYC³-API-使用记录与跟踪指南.md)
+- [API Usage Record Template](./API使用记录模板.md)
 - [Security Guidelines](#-security-best-practices)
 - [API Reference](#-api-endpoints)
 
