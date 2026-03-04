@@ -229,25 +229,30 @@ git log --follow -- .env.development
 | 配置项 | 值 | 说明 |
 |--------|-----|------|
 | NODE_ENV | development | 开发模式 |
-| APP_PORT | 3201 | 本地端口 |
-| API_BASE_URL | http://localhost:3201 | API地址 |
+| API_BASE_URL | https://test-api.0379.world | 云端API地址 |
+| API_WS_URL | wss://test-api.0379.world/ws | WebSocket地址 |
+| API_HEALTH_CHECK | https://test-api.0379.world/health | 健康检查 |
 | LOG_LEVEL | debug | 调试日志 |
+
+**注意**：所有API服务都部署在云端ECS，本地开发直接连接云端API
 
 ### 测试环境
 
 | 配置项 | 值 | 说明 |
 |--------|-----|------|
 | NODE_ENV | staging | 测试模式 |
-| APP_PORT | 3200 | 测试端口 |
-| API_BASE_URL | https://test-api.0379.world | 测试API |
+| API_BASE_URL | https://test-api.0379.world | 云端API |
+| API_WS_URL | wss://test-api.0379.world/ws | WebSocket地址 |
+| API_HEALTH_CHECK | https://test-api.0379.world/health | 健康检查 |
 
 ### 生产环境
 
 | 配置项 | 值 | 说明 |
 |--------|-----|------|
 | NODE_ENV | production | 生产模式 |
-| APP_PORT | 3200 | 生产端口 |
-| API_BASE_URL | https://api.0379.world | 生产API |
+| API_BASE_URL | https://api.0379.world | 云端API |
+| API_WS_URL | wss://api.0379.world/ws | WebSocket地址 |
+| API_HEALTH_CHECK | https://api.0379.world/health | 健康检查 |
 
 ## 配置变更历史
 
@@ -359,10 +364,10 @@ git commit -m "添加.gitignore，保护敏感信息"
 #!/bin/bash
 # monitor.sh - API性能监控脚本
 
-# 监控端点
+# 监控端点（云端API）
 ENDPOINTS=(
-  "http://localhost:3201/health"
-  "http://localhost:3201/api/v1/devices"
+  "https://test-api.0379.world/health"
+  "https://test-api.0379.world/api/v1/devices"
 )
 
 # 监控间隔（秒）

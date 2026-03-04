@@ -129,8 +129,8 @@ curl $API_BASE_URL/health
 **Purpose**: Local development and testing
 
 **Configuration**:
-- API URL: `http://localhost:3200`
-- WebSocket: `ws://localhost:3200/ws`
+- API URL: `https://test-api.0379.world`
+- WebSocket: `wss://test-api.0379.world/ws`
 - Log Level: `debug`
 - Rate Limit: 1000 requests/minute
 - JWT Expiry: 24 hours
@@ -396,7 +396,7 @@ We welcome contributions! Please follow these steps:
 
 ### API Endpoints
 
-- **Development**: http://localhost:3200
+- **Development**: https://test-api.0379.world
 - **Staging**: https://test-api.0379.world
 - **Production**: https://api.0379.world
 

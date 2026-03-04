@@ -225,9 +225,9 @@ git push origin main
 
 | 环境 | 地址 | 说明 |
 |------|------|------|
-| 开发环境 | http://localhost:3200 | 本地开发 |
-| 测试环境 | https://test-api.0379.world | 测试服务器 |
-| 生产环境 | https://api.0379.world | 生产服务器 |
+| 开发环境 | https://test-api.0379.world | 云端API |
+| 测试环境 | https://test-api.0379.world | 云端API |
+| 生产环境 | https://api.0379.world | 云端API |
 
 ---
 

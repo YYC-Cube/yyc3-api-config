@@ -103,16 +103,18 @@ ZHIPU_API_KEY=235424a273ab40c387e8e3a2571031b7.R5lXPtxc3SCHDOT1
 | 配置项 | 值 | 说明 |
 |--------|-----|------|
 | `NODE_ENV` | development | 开发模式 |
-| `APP_PORT` | 3200 | 本地端口 |
-| `API_BASE_URL` | http://localhost:3200 | API地址 |
+| `API_BASE_URL` | https://test-api.0379.world | 云端API地址 |
+| `API_WS_URL` | wss://test-api.0379.world/ws | WebSocket地址 |
+| `API_HEALTH_CHECK` | https://test-api.0379.world/health | 健康检查 |
 | `LOG_LEVEL` | debug | 调试日志 |
 | `DEBUG` | true | 启用调试 |
-| `ENABLE_SWAGGER` | true | 启用API文档 |
 
 **使用场景**：
 - 本地开发
 - 功能测试
 - API调试
+
+**注意**：所有API服务都部署在云端ECS，本地开发直接连接云端API
 
 ### 测试环境
 
@@ -156,14 +158,12 @@ ZHIPU_API_KEY=235424a273ab40c387e8e3a2571031b7.R5lXPtxc3SCHDOT1
 # 应用配置
 NODE_ENV=development           # 环境模式
 APP_NAME=yyc3_aify           # 应用名称
-APP_PORT=3200               # 应用端口
-APP_HOST=0.0.0.0            # 监听地址
 APP_VERSION=2.0.0           # 应用版本
 
-# API配置
-API_BASE_URL=http://localhost:3200
-API_HEALTH_CHECK=http://localhost:3200/health
-API_WS_URL=ws://localhost:3200/ws
+# API配置（云端ECS）
+API_BASE_URL=https://test-api.0379.world
+API_HEALTH_CHECK=https://test-api.0379.world/health
+API_WS_URL=wss://test-api.0379.world/ws
 ```
 
 ### AI服务配置
@@ -498,9 +498,9 @@ git log --oneline
 
 | 环境 | 地址 | 说明 |
 |------|------|------|
-| 开发环境 | http://localhost:3200 | 本地开发 |
-| 测试环境 | https://test-api.0379.world | 测试服务器 |
-| 生产环境 | https://api.0379.world | 生产服务器 |
+| 开发环境 | https://test-api.0379.world | 云端API |
+| 测试环境 | https://test-api.0379.world | 云端API |
+| 生产环境 | https://api.0379.world | 云端API |
 
 ### 联系方式
 
